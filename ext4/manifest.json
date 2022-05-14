@@ -1,0 +1,17 @@
+{
+  "name": "Page Color",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Turns the page red or green when you click the corresponding button",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
